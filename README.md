@@ -7,3 +7,12 @@ Linux Face Unlock
 [devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth)
 
 [AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/)
+
+## Authentication
+
+Could be done in the lock screen application, but this is probably too specific.
+
+### PAM Auth
+Depends on the lock screen application authenticating through PAM.
+
+[simple-pam](￼https://github.com/beatgammit/simple-pam)
