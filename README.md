@@ -4,7 +4,7 @@ Linux Face Unlock
 ## Existing Tools
 [deepakgouda/faceunlock (Ubuntu)](https://github.com/deepakgouda/faceunlock)
 
-[devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth)
+[devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth) - Slightly outdated opencv calls. Appears to use grayscale images. Forked [here](https://github.com/ARandomOWL/pam-facial-auth).
 
 [AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/) - Relies on outdated qt4/opencv. Last update upstream: 2013.
 
