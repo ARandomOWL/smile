@@ -6,7 +6,7 @@ Linux Face Unlock
 
 [devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth)
 
-[AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/)
+[AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/) - Relies on outdated qt4.
 
 ## Authentication
 
