@@ -6,13 +6,17 @@ Linux Face Unlock
 
 [devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth)
 
-[AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/) - Relies on outdated qt4.
+[AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/) - Relies on outdated qt4/opencv. Last update upstream: 2013.
 
-## Authentication
+## Methods
+Options:
+1. Hook or patch the lock screen application.
+2. Add PAM module.
 
-Could be done in the lock screen application, but this is probably too specific.
+#2 is the preferred option but depends on the lock screen application supporting PAM.
 
-### PAM Auth
-Depends on the lock screen application authenticating through PAM.
+Lock screen applications known to support PAM:
+- i3lock
 
-[simple-pam](￼https://github.com/beatgammit/simple-pam)
+PAM Resources:
+- ￼https://github.com/beatgammit/simple-pam - PAM module example.
