@@ -6,8 +6,8 @@ Possibilities:
 - [deepakgouda/faceunlock (Ubuntu)](https://github.com/deepakgouda/faceunlock) - Python, based on face_recognition library. Hooks directly into Ubuntu dbus. Requires python-face_recognition from AUR and python-opencv from pip. Can take up to 8 seconds to execute.
 
     Limitations:
-        * Easily spoofed with an image.
-        * The facial recognition doesn't work if the face has any partial covering.
+    - Easily spoofed with an image.
+    - The facial recognition doesn't work if the face has any partial covering.
 
 - [devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth) - Slightly outdated opencv calls. Appears to use grayscale images. Forked [here](https://github.com/ARandomOWL/pam-facial-auth).
 
