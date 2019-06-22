@@ -7,6 +7,10 @@ Possibilities:
 
 - [devinaconley/pam-facial-auth](https://github.com/devinaconley/pam-facial-auth) - Slightly outdated opencv calls. Appears to use grayscale images. Forked [here](https://github.com/ARandomOWL/pam-facial-auth).
 
+Limitations:
+* Easily spoofed with an image.
+* The facial recognition doesn't work if the face has any partial covering.
+
 Ruled out:
 - [AUR pam-face-authentication](https://aur.archlinux.org/packages/pam-face-authentication/) - Relies on outdated qt4/opencv. Last update upstream: 2013.
 
@@ -22,3 +26,7 @@ Lock screen applications known to support PAM:
 
 PAM Resources:
 - ￼https://github.com/beatgammit/simple-pam - PAM module example.
+
+## Other technology
+- Apple's FaceID uses an infrared light to create an encoded depth map of the users face. 
+  - This overcomes the limitations of spoofing the algorithm with an image.
